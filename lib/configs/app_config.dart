@@ -1,5 +1,5 @@
 class AppConfig {
-  static final baseUrl = 'https://project.nironcrm.tk/simply-life-mobile';
+  static final baseUrl = 'http://mobile.gratitude-beauty.com';
   static final baseApiUrl = AppConfig.baseUrl + '/api';
   static final confirmPayment = AppConfig.baseUrl + '/api/payment/success';
   static final successPayment =

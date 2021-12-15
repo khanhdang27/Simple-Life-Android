@@ -35,7 +35,7 @@ class AuthRepository extends Repository {
       url: '/site/login-external',
       data: formData,
     );
-    AppSharedPrefs.setPhone(response['data']['phone'] ?? '');
+    AppSharedPrefs.setPhone(response['data']['user']['phone'] ?? '');
     return UserIdentity(
       id: response['data']['user']['id'],
       token: response['data']['token'],
